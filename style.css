@@ -1,0 +1,68 @@
+/* Make sure you specify a "height: 100vh", "width: 100vw", and "margin: 0" for all your pages */
+body {
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+	display: block;
+}
+
+/* You should know what the class does just by looking at the name (the name should be DESCRIPTIVE) */
+.big-row {
+	height: 50%;
+	width: 100%;
+	display:flex;
+}
+
+.thirdbox{
+	height:100%;
+	width: calc(100%/3);
+}	
+
+.purple {
+	background-color: #dab4ed;
+}
+
+.red {
+	background-color: #990000;
+}
+.blue {
+	background-color: #b4ceed;
+}
+
+.yellow { 
+	background-color: #fffb30;
+} 
+
+.pink {
+	background-color: #FFB6C1;
+}
+
+.green { 
+	background-color: #d9ffba;
+} 
+
+.orange { 
+    background-color: #ffe3ba;
+} 
+
+
+/* Use this class on the PARENT of whatever you are trying to center; remember that the PARENT tells the CHILD what to do! */
+/* NOTE: Centering content only works when the display property is "flex"! */
+.center-content {
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Use this class on your image to restrict the size so it stays completely within it's parent div */
+.restrict-img-size {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.stretch-img-size {
+	height: 75%;
+	width: 75%;
+}
+
+
